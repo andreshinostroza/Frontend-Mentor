@@ -1,7 +1,8 @@
+Preview Desktop
 ![Desktop][def]
+[def]: images\Desktop.png
 
-[def]: Desktop.png
 
-![Desktop][def1]
-
-[def1]: Mobile.png
+Preview Mobile
+![Mobile][def1]
+[def1]: images\Mobile.png
