@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,800;1,800&display=swap');
+
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Gray-500: hsl(0, 0%, 42%);
+    --Gray-950: hsl(0, 0%, 7%);
+}
+*{
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+}
+
+body{
+    background-color: var(--Yellow);
+}
+
+.card {
+    margin: 219px auto;
+    padding: 24px;
+    background: var(--White);
+    border: 1px solid var(--Gray-950);
+    width: 336px;
+    height: 474px;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+
+.image-card {
+    width: 336px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.course-state{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: var(--Gray-950);
+    display: block;
+    background-color: var(--Yellow);
+    width: 82px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 14px;
+
+}
+.time{
+    color: var(--Gray-950);
+    font-weight: 800;
+    font-size: 14px;
+}
+.title{
+    color: var(--Gray-950);
+    margin: 12px 0;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+}
+.title:hover {
+    color: var(--Yellow);
+  }
+
+
+.parrafo{
+    color: var(--Gray-500);
+    margin: 12px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.autor{
+    display: flex;
+    margin-top: 24px;
+}
+.avatar{
+    width: 32px;
+    height: 32px;
+}
+.name{
+    margin: 0 12px;
+    font-weight: 800;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 32px;
+}
+
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
