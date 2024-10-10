@@ -14,26 +14,26 @@ body{
 }
 .main-container{
     background-color: var(--White);
-    width: 320px;
-    height: 499px;
+    max-width: 288px;
+    padding: 16px;
     margin: 230.5px auto;
     border-radius: 20px;
 }
 .img-container{
-    width: 288px;
-    height: 288px;
+    max-width: 100%;
     border-radius: 10px;   
-    margin: 16px;
+    margin-bottom: 20px;
 }
 h1{
-    margin: 8px 16px;
-    font-size: 24px;
+    margin: 10px;
+    font-size: 22px;
     text-align: center;
     color: var(--Slate900);
 }
 p{
-    margin: 8px 16px;
-    font-size: 17px;
+    margin: 12px 10px 20px 10px;
+
+    font-size: 15px;
     text-align: center;
     color: var(--Slate500);
 }
