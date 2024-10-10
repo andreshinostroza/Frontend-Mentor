@@ -18,24 +18,23 @@ body{
 
 .card {
     margin: 219px auto;
-    padding: 24px;
+    padding: 23px;
     background: var(--White);
     border: 1px solid var(--Gray-950);
-    width: 336px;
-    height: 474px;
+    max-width: 336px;
     border-radius: 20px;
-    box-shadow: 10px 10px;
+    box-shadow: 8px 8px;
 }
 
 .image-card {
+    max-width: 100%;
     width: 336px;
-    height: 200px;
     border-radius: 8px;
 }
 
 .course-state{
     margin-top: 24px;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     color: var(--Gray-950);
     display: block;
     background-color: var(--Yellow);
@@ -45,13 +44,13 @@ body{
     text-align: center;
     border-radius: 4px;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 16px;
 
 }
 .time{
     color: var(--Gray-950);
-    font-weight: 800;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
 }
 .title{
     color: var(--Gray-950);
