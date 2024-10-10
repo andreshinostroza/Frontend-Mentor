@@ -2,5 +2,4 @@ Desktop
 
 ![Desktop][def]
 
-
-[def]: design\Desktop.png
+[def]: design/Desktop.png
