@@ -2,4 +2,4 @@ Desktop
 
 ![Desktop][def]
 
-[def]: blog-preview-card-main/design/Desktop.png
+[def]: design/Desktop.png
